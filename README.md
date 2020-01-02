@@ -20,6 +20,8 @@ Make sure that you have a SSH key and mentioned in vars.tf.
 
 Change the AWS region in vars.tf to your proferred one.
 
+Under .aws folder make sure to update credentials file with appropriate user, secret keys
+
 Use the below commands to build, review and execute.
 
 terraform init  
